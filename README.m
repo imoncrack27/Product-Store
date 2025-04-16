@@ -1,4 +1,4 @@
-<h1 align="center">Product Sotre 🚀</h1>
+Product Sotre 🚀
 
 
 -   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Chakra UI
