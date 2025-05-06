@@ -25,8 +25,8 @@ export const createProduct = async (req, res) => {
       .status(400)
       .json({ success: false, message: "Name and price are required" });
   }
-  const newProduct = new Product(product);
 
+  const newProduct = new Product(product);
   try {
     await newProduct.save();
     res.status(201).json({
